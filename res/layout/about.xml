@@ -10,5 +10,6 @@
         android:padding="10px"
         android:textSize="8pt"
         android:text="@string/about_text_view"
+        android:autoLink="web"
         />
 </LinearLayout>
