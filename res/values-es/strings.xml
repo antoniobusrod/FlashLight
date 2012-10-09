@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Linterna</string>
+    <string name="button_text">Encender/Apagar</string>
+    <string name="permlab_flashlight">Permisos para la linterna</string>
+    <string name="permdesc_flashlight">Descripción de los permisos de la linterna</string>
+    <string name="text_view">Apaga o enciende la luz con el botón</string>
+    <string name="about_app">Acerca FlashLight</string>
+    <string name="about_text_view">Desarrollado por antoniobusrod</string>
+</resources>
