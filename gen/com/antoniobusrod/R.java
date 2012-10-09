@@ -36,5 +36,7 @@ public final class R {
         public static final int permdesc_flashlight=0x7f050003;
         public static final int permlab_flashlight=0x7f050002;
         public static final int text_view=0x7f050004;
+        public static final int warn_flash_mode_torches_na=0x7f050008;
+        public static final int warn_flash_not_available=0x7f050007;
     }
 }

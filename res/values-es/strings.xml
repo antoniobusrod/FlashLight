@@ -6,5 +6,15 @@
     <string name="permdesc_flashlight">Descripción de los permisos de la linterna</string>
     <string name="text_view">Apaga o enciende la luz con el botón</string>
     <string name="about_app">Acerca FlashLight</string>
-    <string name="about_text_view">Desarrollado por antoniobusrod</string>
+    <string name="about_text_view">
+        Desarrollado por antoniobusrod \n\n
+        https://github.com/antoniobusrod/FlashLight
+    </string>
+    <string name="warn_flash_not_available">
+        Atención: Tu dispositivo no tiene flash en la cámara
+    </string>
+    <string name="warn_flash_mode_torches_na">
+        Warning: your device does not support torch flash mode (flash light)
+        Atención: Tu dispositivo no soporta el modo torch del flash
+    </string>
 </resources>

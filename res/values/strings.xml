@@ -6,5 +6,14 @@
     <string name="permdesc_flashlight">Flashlight permission description</string>
     <string name="text_view">Turn off the lights with the button</string>
     <string name="about_app">About FlashLight</string>
-    <string name="about_text_view">Developed by antoniobusrod</string>
+    <string name="about_text_view">
+        Developed by antoniobusrod \n\n
+        https://github.com/antoniobusrod/FlashLight
+    </string>
+    <string name="warn_flash_not_available">
+        Warning: your device does not support flash light
+    </string>
+    <string name="warn_flash_mode_torches_na">
+        Warning: your device does not support torch flash mode (flash light)
+    </string>
 </resources>

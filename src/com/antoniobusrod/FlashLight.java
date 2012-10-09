@@ -17,7 +17,7 @@ import java.util.List;
 public class FlashLight extends Activity {
 
     private static final String TAG=FlashLight.class.getSimpleName();
-    private static final boolean debugOn=false;
+    private boolean debugOn=false;
 
     Camera cam;
     boolean lightOn;
@@ -89,7 +89,7 @@ public class FlashLight extends Activity {
      */
     private int turnOnFlashLight() {
         if(!(this.getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA_FLASH))){
-            text_view_warn.setText("Warning: your device does not support flash light");
+            text_view_warn.setText(R.string.warn_flash_not_available);
             cam = Camera.open();
             getInfoFlashModes(cam);
             cam.release();
@@ -98,7 +98,7 @@ public class FlashLight extends Activity {
             cam = Camera.open();
             Camera.Parameters p = cam.getParameters();
             List<String> flash_modes_supported=p.getSupportedFlashModes();
-            if(flash_modes_supported.contains(new String("torch"))){
+            if(flash_modes_supported.contains("torch")){
                 p.setFlashMode(Camera.Parameters.FLASH_MODE_TORCH);
                 p.setFocusMode(Camera.Parameters.FOCUS_MODE_INFINITY);
                 cam.setParameters(p);
@@ -106,7 +106,7 @@ public class FlashLight extends Activity {
                 getInfoFlashModes(cam);
                 cam.startPreview();
             }else{
-                text_view_warn.setText("Warning: your device does not support torch flash mode (flash light)");
+                text_view_warn.setText(R.string.warn_flash_mode_torches_na);
             }
             return 1;
         }
@@ -133,8 +133,8 @@ public class FlashLight extends Activity {
     /**
      * Display useful information about current flash mode and flash modes
      * available
-     * @param cam
-     * @return
+     * @param cam Camera global variable
+     * @return Integer state method execution
      */
     private int getInfoFlashModes(Camera cam){
         if(!debugOn)
