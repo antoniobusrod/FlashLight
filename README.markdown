@@ -2,7 +2,7 @@
 Simple FlashLight app for Android 2.2 and above
 
 ##Authors
-Antonio Bustos <antoniobusrod@gmail.com>
+Antonio Bustos, <antoniobusrod@gmail.com>
 
 ##License
 This program is free software: you can redistribute it and/or modify
