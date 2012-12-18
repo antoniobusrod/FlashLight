@@ -66,16 +66,16 @@ public class FlashLight extends Activity {
 
     @Override
     protected void onResume() {
-        super.onResume();    //To change body of overridden methods use File | Settings | File Templates.
         turnOnFlashLight();
+        super.onResume();    //To change body of overridden methods use File | Settings | File Templates.
     }
 
     @Override
     protected void onPause() {
-        super.onPause();    //To change body of overridden methods use File | Settings | File Templates.
         if(lightOn){
             turnOffFlashLight();
         }
+        super.onPause();    //To change body of overridden methods use File | Settings | File Templates.
     }
 
     @Override
