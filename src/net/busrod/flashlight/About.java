@@ -13,7 +13,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.antoniobusrod;
+package net.busrod.flashlight;
 
 import android.app.Activity;
 import android.hardware.Camera;

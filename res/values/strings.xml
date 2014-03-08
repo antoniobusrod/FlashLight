@@ -4,7 +4,7 @@
     <string name="button_text">Turn on/off</string>
     <string name="permlab_flashlight">Flashlight permission</string>
     <string name="permdesc_flashlight">Flashlight permission description</string>
-    <string name="text_view">Turn off the lights with the button</string>
+    <string name="text_view">Turn on/off the lights with the button</string>
     <string name="about_app">About FlashLight</string>
     <string name="about_text_view">
         Developed by antoniobusrod \n\n
